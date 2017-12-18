@@ -1,0 +1,26 @@
+(: answer for 2.1 :)
+xquery version "3.1";
+for $x in doc("/db/books.xml")/books/book
+where contains(<t>{data($x/author)}</t>, 'Mary') and contains(<t>{data($x/author)}</t>, 'John')
+return $x
+(: answer for 2.2 :)
+xquery version "3.1";
+for $x in doc("/db/books.xml")/books/book
+where contains(data($x/author), 'John') and (string(contains(data($x/author), 'Mary')) = 'false')
+return $x
+(: answer for 2.3 :)
+xquery version "3.1";
+<results>{
+    let $authors := 
+        (for $entry in doc("/db/books.xml")/books/book
+        let $author := $entry/author/string()
+        where $entry/year = 2000
+        return $author)
+    for $a in distinct-values($authors)
+    order by count($authors[. eq $a]) descending
+    return 
+        <result>
+            <author>{$a}</author>
+            <count>{count($authors[. eq $a])}</count>
+        </result>
+}</results>
