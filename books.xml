@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+   <book id="bk101" publisher="usPublisher">
+      <author>John</author>
+      <author>Mary</author>
+      <title>Wind</title>
+      <genre>Fiction</genre>
+      <year>2001</year>
+   </book>
+   <book id="bk102" publisher="ukPublisher">
+      <author>John</author>
+      <title>Rain</title>
+      <genre>Fantasy</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk103" publisher="aPublisher">
+      <author>Tom</author>
+      <title>Cloud</title>
+      <genre>Computer</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk104" publisher="bPublisher">
+      <author>Mary</author>
+      <author>John</author>
+      <title>Star</title>
+      <genre>Fiction</genre>
+      <year>2002</year>
+   </book>
+   <book id="bk105" publisher="cPublisher">
+      <author>Mike</author>
+      <title>Sun</title>
+      <genre>Romance</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk106" publisher="dPublisher">
+      <author>David</author>
+      <title>Moon</title>
+      <genre>Fantasy</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk107" publisher="ePublisher">
+      <author>John</author>
+      <title>Jupiter</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk108" publisher="ePublisher">
+      <author>Mike</author>
+      <author>John</author>
+      <title>Venus</title>
+      <genre>Art</genre>
+      <year>2013</year>
+   </book>
+   <book id="bk109" publisher="usPublisher">
+      <author>Mike</author>
+      <title>Earth</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk110" publisher="usPublisher">
+      <author>Mike</author>
+      <author>Tom</author>
+      <title>Mars</title>
+      <genre>Art</genre>
+      <year>2009</year>
+   </book>
+   <book id="bk111" publisher="usPublisher">
+      <author>Mary</author>
+      <title>Earth</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk112" publisher="usPublisher">
+      <author>Mary</author>
+      <title>Uranus</title>
+      <genre>Science</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk113" publisher="usPublisher">
+      <author>Tim</author>
+      <title>Saturn</title>
+      <genre>Art</genre>
+      <year>2010</year>
+   </book>
+   <book id="bk114" publisher="usPublisher">
+      <author>Bob</author>
+      <title>Neptune</title>
+      <genre>Science</genre>
+      <year>2007</year>
+   </book>
+   <book id="bk115" publisher="usPublisher">
+      <author>Jane</author>
+      <author>Mary</author>
+      <title>Venus</title>
+      <genre>Science</genre>
+      <year>2010</year>
+   </book>
+   <book id="bk116" publisher="usPublisher">
+      <author>Jen</author>
+      <title>Aspen</title>
+      <genre>Science</genre>
+      <year>2011</year>
+   </book>
+   <book id="bk117" publisher="usPublisher">
+      <author>Bob</author>
+      <title>Ash</title>
+      <genre>Art</genre>
+      <year>2012</year>
+   </book>
+   <book id="bk118" publisher="usPublisher">
+      <author>Emma</author>
+      <title>Elm</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk119" publisher="usPublisher">
+      <author>Bob</author>
+      <title>Spruce</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk120" publisher="usPublisher">
+      <author>John</author>
+      <title>Pine</title>
+      <genre>Science</genre>
+      <year>2012</year>
+   </book>
+   <book id="bk121" publisher="usPublisher">
+      <author>Tom</author>
+      <title>Larch</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk122" publisher="usPublisher">
+      <author>Emma</author>
+      <title>Willow</title>
+      <genre>Fiction</genre>
+      <year>2011</year>
+   </book>
+   <book id="bk123" publisher="usPublisher">
+      <author>Jane</author>
+      <title>Birch</title>
+      <genre>Fantasy</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk124" publisher="usPublisher">
+      <author>Jen</author>
+      <title>Oak</title>
+      <genre>Art</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk125" publisher="usPublisher">
+      <author>Johnny</author>
+      <title>Cedar</title>
+      <genre>Fantasy</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk126" publisher="usPublisher">
+      <author>Johnny</author>
+      <title>Cedar</title>
+      <genre>Fantasy</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk127" publisher="usPublisher">
+      <author>Mike</author>
+      <author>John</author>
+      <author>Mary</author>
+      <title>Lindens</title>
+      <genre>Science</genre>
+      <year>2010</year>
+   </book>
+   <book id="bk128" publisher="usPublisher">
+      <author>Johnny</author>
+      <title>Alder</title>
+      <genre>Science</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk129" publisher="usPublisher">
+      <author>Jen</author>
+      <title>Fir</title>
+      <genre>Fiction</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk130" publisher="usPublisher">
+      <author>Johnny</author>
+      <title>Acacia</title>
+      <genre>Fantasy</genre>
+      <year>2001</year>
+   </book>
+   <book id="bk131" publisher="usPublisher">
+      <author>Tom</author>
+      <title>Cat</title>
+      <genre>Fantasy</genre>
+      <year>2010</year>
+   </book>
+   <book id="bk132" publisher="usPublisher">
+      <author>Tim</author>
+      <title>Dog</title>
+      <genre>Fiction</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk133" publisher="usPublisher">
+      <author>John</author>
+      <author>Johnny</author>
+      <author>Tom</author>
+      <author>Mary</author>
+      <title>Bird</title>
+      <genre>Fiction</genre>
+      <year>2012</year>
+   </book>
+   <book id="bk134" publisher="usPublisher">
+      <author>John</author>
+      <author>Tim</author>
+      <title>Lion</title>
+      <genre>Fantasy</genre>
+      <year>2010</year>
+   </book>
+   <book id="bk135" publisher="usPublisher">
+      <author>Mary</author>
+      <author>John</author>
+      <author>Johnny</author>
+      <title>Tiger</title>
+      <genre>Fiction</genre>
+      <year>2003</year>
+   </book>
+   <book id="bk136" publisher="usPublisher">
+      <author>Tim</author>
+      <title>Horse</title>
+      <genre>Fiction</genre>
+      <year>2011</year>
+   </book>
+   <book id="bk137" publisher="usPublisher">
+      <author>John</author>
+      <title>Squirrel</title>
+      <genre>Science</genre>
+      <year>2000</year>
+   </book>
+   <book id="bk138" publisher="usPublisher">
+      <author>Jane</author>
+      <title>Deer</title>
+      <genre>Fiction</genre>
+      <year>2000</year>
+   </book>
+</books>
