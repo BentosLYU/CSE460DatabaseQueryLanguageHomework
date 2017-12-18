@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE tinyfico [
+	<!ELEMENT tinyfico (banks,customers)>
+	<!ELEMENT banks (bank*)>
+	<!ELEMENT bank EMPTY>
+	<!ATTLIST bank bankcode ID #REQUIRED>
+	<!ATTLIST bank name CDATA #REQUIRED>
+
+	<!ELEMENT customers (customer*)>
+	<!ELEMENT customer (name, formernames, addresses, accounts)>
+	<!ATTLIST customer ssn CDATA #REQUIRED>
+	<!ELEMENT name (#PCDATA)>
+
+	<!ELEMENT formernames (formername*)>
+	<!ELEMENT formername (#PCDATA)>
+
+	<!ELEMENT addresses (address*)>
+	<!ELEMENT address (street, city, state, zipcode)>
+	<!ELEMENT street (#PCDATA)>
+	<!ELEMENT city (#PCDATA)>
+	<!ELEMENT state (#PCDATA)>
+	<!ELEMENT zipcode (#PCDATA)>
+
+	<!ELEMENT accounts (account*)>
+	<!ELEMENT account EMPTY>
+	<!ATTLIST account number ID #REQUIRED>
+	<!ATTLIST account bankcode CDATA #REQUIRED>
+	<!ATTLIST account type (checking|credit|saving) "checking">
+]>
+
+<tinyfico>
+	<banks>
+		<bank bankcode="b100" name="wilson"></bank>
+		<bank bankcode="b101" name="scb"></bank>
+	</banks>
+	<customers>
+		<customer ssn="867-214-2344">
+			<name>Britteny Abston</name>
+			<formernames>
+				<formername>Brit Abston</formername>
+			</formernames>
+			<addresses>
+				<address>
+					<street>Street 1048 Mission Street</street>
+					<city>Atlantic</city>
+					<state>NJ</state>
+					<zipcode>45879</zipcode>
+				</address>
+			</addresses>
+			<accounts>
+				<account number="a23534534" bankcode="b100" type="credit"></account>
+				<account number="a23425435" bankcode="b101" type="saving"></account>
+			</accounts>
+		</customer>
+	</customers>
+</tinyfico>
